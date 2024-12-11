@@ -1,7 +1,7 @@
 const search = document.getElementById('search');
 search.addEventListener('keyup', function () {
     if (search.value.trim().length > 2) {
-        const api = `http://api.weatherapi.com/v1/forecast.json?key=d3b03b46480c4891b68183846240912&q=${search.value.trim()}&days=3`
+        const api = `https://api.weatherapi.com/v1/forecast.json?key=d3b03b46480c4891b68183846240912&q=${search.value.trim()}&days=3`
         get(api)
     }
 })
