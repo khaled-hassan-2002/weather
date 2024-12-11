@@ -1,0 +1,64 @@
+.main-background {
+    background-color: #1e202b !important;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.logo .fw-light {
+    font-size: 10px;
+}
+
+nav ul li a {
+    transition: .5s !important;
+    border-radius: 40%;
+}
+
+nav ul li:hover a {
+    color: #009ad8 !important;
+    border: 1px solid #009ad8;
+}
+
+.hero {
+    background-image: url(../imgs/banner.png);
+    background-size: cover;
+    min-height: 350px;
+}
+
+#search {
+    outline: none;
+}
+
+#submit,
+.submit {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-color: #009ad8
+}
+
+.item .header {
+    background-color: #36373d72;
+}
+
+.item {
+    background-color: #7a7e9472;
+}
+
+footer {
+    background-color: #2c2f3f;
+}
+
+footer i {
+    color: #009ad8;
+}
+
+footer a:hover i {
+    color: white;
+}
+
+h1 {
+    font-size: 70px;
+}
